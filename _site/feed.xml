@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>李俊达</title>
+    <description>欢迎来到我的个人站~</description>
+    <link>http://wisnic.com/</link>
+    <atom:link href="http://wisnic.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 14 Jul 2017 14:30:47 +0800</pubDate>
+    <lastBuildDate>Fri, 14 Jul 2017 14:30:47 +0800</lastBuildDate>
+    <generator>Jekyll v3.1.1</generator>
+    
+      <item>
+        <title>Markdown工具集</title>
+        <description>&lt;h3 id=&quot;markdown&quot;&gt;什么是 Markdown&lt;/h3&gt;
+
+&lt;p&gt;　　Markdown 是一种方便记忆、书写的纯文本标记语言，用户可以使用这些标记符号以最小的输入代价生成极富表现力的文档：如您正在阅读的这篇文章。它使用简单的符号标记不同的标题，分割不同的段落，&lt;strong&gt;粗体&lt;/strong&gt; 或者 &lt;em&gt;斜体&lt;/em&gt; 某些文字.&lt;/p&gt;
+
+&lt;p&gt;　　很多产品的文档也是用markdown编写的，并且以“README.MD”的文件名保存在软件的目录下面。             &lt;br /&gt;
+　　&lt;/p&gt;
+
+&lt;h3 id=&quot;section&quot;&gt;一些基本语法&lt;/h3&gt;
+
+&lt;p&gt;标题          &lt;br /&gt;
+H1 :# Header 1          &lt;br /&gt;
+H2 :## Header 2         &lt;br /&gt;
+H3 :### Header 3         &lt;br /&gt;
+H4 :#### Header 4         &lt;br /&gt;
+H5 :##### Header 5          &lt;br /&gt;
+H6 :###### Header 6    &lt;br /&gt;
+链接 :&lt;a href=&quot;URL&quot;&gt;Title&lt;/a&gt;      &lt;br /&gt;
+加粗 :&lt;strong&gt;Bold&lt;/strong&gt;      &lt;br /&gt;
+斜体字 :&lt;em&gt;Italics&lt;/em&gt;       &lt;br /&gt;
+&lt;em&gt;删除线 :~~text~~        &lt;br /&gt;
+段落 : 段落之间空一行         &lt;br /&gt;
+换行符 : 一行结束时输入两个空格         &lt;br /&gt;
+列表 :&lt;/em&gt; 添加星号成为一个新的列表项。        &lt;br /&gt;
+引用 :&amp;gt; 引用内容             &lt;br /&gt;
+内嵌代码 : &lt;code class=&quot;highlighter-rouge&quot;&gt;alert(&#39;Hello World&#39;);&lt;/code&gt;      &lt;br /&gt;
+画水平线 (HR) :——–&lt;/p&gt;
+
+&lt;p&gt;css 的大部分语法同样可以在 markdown 上使用，但不同的渲染器渲染出来的 markdown 内容样式也不一样，下面这些链接里面有 markdown 基本语法，你也可以在下面几个平台上尝试着写一些。&lt;/p&gt;
+
+&lt;h3 id=&quot;markdown-&quot;&gt;一些好用的 Markdown 编辑器&lt;/h3&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://mahua.jser.me/?utm_source=mindstore.io&quot;&gt;MaHua&lt;/a&gt; 在线 Markdown 编辑器 ,无须测试。&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/posts/markdown/image1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://mdp.tylingsoft.com/&quot;&gt;Markdown Plus&lt;/a&gt; 一款 Markdown 编辑器，可以支持添加任务列表、emoji、流程图等。&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/posts/markdown/image2.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.zybuluo.com/cmd/?utm_source=mindstore.io&quot;&gt;Cmd Markdown&lt;/a&gt; 作业部落在线 Markdown 编辑器推出桌面版客户端啦，全平台支援。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/posts/markdown/image3.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/MacDownApp/macdown&quot;&gt;Macdown&lt;/a&gt; Github 上开源的 Mac 平台上的 Markdown 编辑器&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.gitbook.com/editor?utm_source=mindstore.io&quot;&gt;GitBook Editor&lt;/a&gt; 一款团队在线编辑文档工具。可以轻松书写笔记，支持团队协同编辑。同时支持 Markdown 语法，还保持了印象笔记的风格并可在线预览。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.glamdevelopment.com/outlinely?utm_source=mindstore.io&quot;&gt;Outlinely&lt;/a&gt; 界面简洁大方的大纲类 Mac 软件，使用起来很简单，而且支持输出 Markdown 格式。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://classeur.io/?utm_source=mindstore.io&quot;&gt;Classeur&lt;/a&gt; 实用简洁的 Markdown 写作工具，快速上手。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/geekcompany/DeerResume?utm_source=mindstore.io&quot;&gt;DeerResume&lt;/a&gt; 程序员专用 MarkDown 简历制作在线工具。&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;转载请注明：&lt;a href=&quot;http://baixin&quot;&gt;潘柏信的博客&lt;/a&gt; » &lt;a href=&quot;http://baixin.io/2016/11/markdownTool/&quot;&gt;Markdown工具集&lt;/a&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Sun, 20 Nov 2016 00:00:00 +0800</pubDate>
+        <link>http://wisnic.com/2016/11/markdownTool/</link>
+        <guid isPermaLink="true">http://wisnic.com/2016/11/markdownTool/</guid>
+        
+        <category>工具</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Jekyll搭建个人博客</title>
+        <description>&lt;p&gt;　之前写了一篇&lt;a href=&quot;http://baixin.io/2015/08/HEXO%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/&quot;&gt;HEXO搭建个人博客&lt;/a&gt;的教程获得了很好评，尤其是在&lt;a href=&quot;http://www.jianshu.com/p/465830080ea9&quot;&gt;简书&lt;/a&gt;上目前已经累积了10W+的阅读量了，也有好心的读者主动给我打赏，在此感谢。&lt;/p&gt;
+
+&lt;p&gt;　如果你看过我的文章会发现我现在的博客样式跟之前是有很大的区别的，之前我也是使用 HEXO 搭建的博客，后来发现使用 HEXO 在多台电脑上发布博客，操作起来并不是那么方便，果断就转到了 Jekyll 上，接下来我会讲如何使用 Jekyll 搭建博客，&lt;a href=&quot;http://baixin.io/#blog&quot;&gt;博客模板效果&lt;/a&gt;。&lt;/p&gt;
+
+&lt;h3 id=&quot;section&quot;&gt;介绍&lt;/h3&gt;
+
+&lt;p&gt;　Jekyll 是一个简单的博客形态的静态站点生产机器。它有一个模版目录，其中包含原始文本格式的文档，通过 Markdown （或者 Textile） 以及 Liquid 转化成一个完整的可发布的静态网站，你可以发布在任何你喜爱的服务器上。Jekyll 也可以运行在 GitHub Page 上，也就是说，你可以使用 GitHub 的服务来搭建你的项目页面、博客或者网站，而且是完全免费的&lt;/p&gt;
+
+&lt;p&gt;　使用 Jekyll 搭建博客之前要确认下本机环境，Git 环境（用于部署到远端）、&lt;a href=&quot;http://www.ruby-lang.org/en/downloads/&quot;&gt;Ruby&lt;/a&gt; 环境（Jekyll 是基于 Ruby 开发的）、包管理器 &lt;a href=&quot;http://rubygems.org/pages/download&quot;&gt;RubyGems&lt;/a&gt;              &lt;br /&gt;
+　　如果你是 Mac 用户，你就需要安装 Xcode 和 Command-Line Tools了。下载方式 Preferences → Downloads → Components。&lt;/p&gt;
+
+&lt;p&gt;　　Jekyll 是一个免费的简单静态网页生成工具，可以配合第三方服务例如： Disqus（评论）、多说(评论) 以及分享 等等扩展功能，Jekyll 可以直接部署在 Github（国外） 或 Coding（国内） 上，可以绑定自己的域名。&lt;a href=&quot;http://jekyll.bootcss.com/&quot;&gt;Jekyll中文文档&lt;/a&gt;、&lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll英文文档&lt;/a&gt;、&lt;a href=&quot;http://jekyllthemes.org/&quot;&gt;Jekyll主题列表&lt;/a&gt;。&lt;/p&gt;
+
+&lt;h3 id=&quot;jekyll-&quot;&gt;Jekyll 环境配置&lt;/h3&gt;
+
+&lt;p&gt;安装 jekyll&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;    
+$ gem install jekyll     
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;创建博客&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;   
+$ jekyll new myBlog    
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;进入博客目录&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;
+$ cd myBlog  
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;启动本地服务&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;
+$ jekyll serve
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;在浏览器里输入： &lt;a href=&quot;http://localhost:4000&quot;&gt;http://localhost:4000&lt;/a&gt;，就可以看到你的博客效果了。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/posts/jekyll/image1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;so easy !&lt;/p&gt;
+
+&lt;h3 id=&quot;section-1&quot;&gt;目录结构&lt;/h3&gt;
+&lt;p&gt;　
+　Jekyll 的核心其实是一个文本转换引擎。它的概念其实就是： 你用你最喜欢的标记语言来写文章，可以是 Markdown，也可以是 Textile,或者就是简单的 HTML, 然后 Jekyll 就会帮你套入一个或一系列的布局中。在整个过程中你可以设置URL路径, 你的文本在布局中的显示样式等等。这些都可以通过纯文本编辑来实现，最终生成的静态页面就是你的成品了。&lt;/p&gt;
+
+&lt;p&gt;一个基本的 Jekyll 网站的目录结构一般是像这样的：&lt;/p&gt;
+
+&lt;p&gt;```
+.
+├── _config.yml
+├── _includes
+|   ├── footer.html
+|   └── header.html
+├── _layouts
+|   ├── default.html
+|   ├── post.html
+|   └── page.html
+├── _posts
+|   └── 2016-10-08-welcome-to-jekyll.markdown
+├── _sass
+|   ├── _base.scss
+|   ├── _layout.scss
+|   └── _syntax-highlighting.scss
+├── about.md
+├── css
+|   └── main.scss
+├── feed.xml
+└── index.html&lt;/p&gt;
+
+&lt;p&gt;```&lt;/p&gt;
+
+&lt;p&gt;这些目录结构以及具体的作用可以参考 &lt;a href=&quot;http://jekyll.com.cn/docs/structure/&quot;&gt;官网文档&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;进入 _config.yml 里面，修改成你想看到的信息，重新 jekyll server ，刷新浏览器就可以看到你刚刚修改的信息了。&lt;/p&gt;
+
+&lt;p&gt;到此，博客初步搭建算是完成了，&lt;/p&gt;
+
+&lt;h3 id=&quot;section-2&quot;&gt;博客部署到远端&lt;/h3&gt;
+
+&lt;p&gt;　我这里讲的是部署到 Github Page 创建一个 github 账号，然后创建一个跟你账户名一样的仓库，如我的 github 账户名叫 &lt;a href=&quot;https://github.com/jundali&quot;&gt;jundali&lt;/a&gt;，我的 github 仓库名就叫 &lt;a href=&quot;https://github.com/jundali/jundali.github.io&quot;&gt;jundali.github.io&lt;/a&gt;，创建好了之后，把刚才建立的 myBlog 项目 push 到 username.github.io仓库里去（username指的是你的github用户名），检查你远端仓库已经跟你本地 myBlog 同步了，然后你在浏览器里输入 username.github.io ，就可以访问你的博客了。&lt;/p&gt;
+
+&lt;h3 id=&quot;section-3&quot;&gt;编写文章&lt;/h3&gt;
+
+&lt;p&gt;　　所有的文章都是 _posts 目录下面，文章格式为 mardown 格式，文章文件名可以是 .mardown 或者 .md。&lt;/p&gt;
+
+&lt;p&gt;　　编写一篇新文章很简单，你可以直接从 _posts/ 目录下复制一份出来 &lt;code class=&quot;highlighter-rouge&quot;&gt;2016-10-16-welcome-to-jekyll副本.markdown&lt;/code&gt; ，修改名字为 2016-10-16-article1.markdown ，注意：文章名的格式前面必须为 2016-10-16- ，日期可以修改，但必须为 年-月-日- 格式，后面的 article1 是整个文章的连接 URL，如果文章名为中文，那么文章的连接URL就会变成这样的：http://baixin.io/2015/08/%E6%90%AD%E5/ ， 所以建议文章名最好是英文的或者阿拉伯数字。 双击 2016-10-16-article1.markdown 打开&lt;/p&gt;
+
+&lt;p&gt;```&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;layout: post
+title:  “Welcome to Jekyll!”
+date:   2016-10-16 11:29:08 +0800
+categories: jekyll update
+—&lt;/p&gt;
+
+&lt;p&gt;正文…&lt;/p&gt;
+
+&lt;p&gt;```&lt;/p&gt;
+
+&lt;p&gt;title: 显示的文章名， 如：title: 我的第一篇文章                  &lt;br /&gt;
+date:  显示的文章发布日期，如：date: 2016-10-16                        &lt;br /&gt;
+categories: tag标签的分类，如：categories: 随笔&lt;/p&gt;
+
+&lt;p&gt;注意：文章头部格式必须为上面的，…. 就是文章的正文内容。&lt;/p&gt;
+
+&lt;p&gt;我写文章使用的是 Sublime Text2 编辑器，如果你对 markdown 语法不熟悉的话，可以看看&lt;a href=&quot;https://www.zybuluo.com/&quot;&gt;作业部落的教程&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;section-4&quot;&gt;使用我的博客模板&lt;/h3&gt;
+
+&lt;p&gt;虽然博客部署完成了，你会发现博客太简单不是你想要的，如果你喜欢我的模板的话，可以使用我的模板。&lt;/p&gt;
+
+&lt;p&gt;首先你要获取的我博客，&lt;a href=&quot;https://github.com/jundali/jundali.github.io.git&quot;&gt;Github项目地址&lt;/a&gt;，你可以直接&lt;a href=&quot;https://github.com/jundali/jundali.github.io/archive/master.zip&quot;&gt;点击下载博客&lt;/a&gt;，进去jundali.github.io/ 目录下， 使用命令部署本地服务&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;
+$ jekyll server   
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;jekyll&quot;&gt;如果你本机没配置过任何jekyll的环境，可能会报错&lt;/h3&gt;
+
+&lt;p&gt;```
+/Users/xxxxxxxx/.rvm/rubies/ruby-2.2.2/lib/ruby/site_ruby/2.2.0/rubygems/core_ext/kernel_require.rb:54:in &lt;code class=&quot;highlighter-rouge&quot;&gt;require&#39;: cannot load such file -- bundler (LoadError)
+	from /Users/xxxxxxxx/.rvm/rubies/ruby-2.2.2/lib/ruby/site_ruby/2.2.0/rubygems/core_ext/kernel_require.rb:54:in &lt;/code&gt;require’
+	from /Users/xxxxxxxx/.rvm/gems/ruby-2.2.2/gems/jekyll-3.3.0/lib/jekyll/plugin_manager.rb:34:in &lt;code class=&quot;highlighter-rouge&quot;&gt;require_from_bundler&#39;
+	from /Users/xxxxxxxx/.rvm/gems/ruby-2.2.2/gems/jekyll-3.3.0/exe/jekyll:9:in &lt;/code&gt;&amp;lt;top (required)&amp;gt;’
+	from /Users/xxxxxxxx/.rvm/gems/ruby-2.2.2/bin/jekyll:23:in &lt;code class=&quot;highlighter-rouge&quot;&gt;load&#39;
+	from /Users/xxxxxxxx/.rvm/gems/ruby-2.2.2/bin/jekyll:23:in &lt;/code&gt;&lt;main&gt;&#39;
+	from /Users/xxxxxxxx/.rvm/gems/ruby-2.2.2/bin/ruby_executable_hooks:15:in `eval&#39;
+	from /Users/xxxxxxxx/.rvm/gems/ruby-2.2.2/bin/ruby_executable_hooks:15:in `&lt;main&gt;&#39;&lt;/main&gt;&lt;/main&gt;&lt;/p&gt;
+
+&lt;p&gt;```&lt;/p&gt;
+
+&lt;p&gt;原因： 没有安装 bundler ，执行安装 bundler 命令&lt;/p&gt;
+
+&lt;p&gt;```&lt;/p&gt;
+
+&lt;p&gt;$ gem install bundler&lt;/p&gt;
+
+&lt;p&gt;```&lt;/p&gt;
+
+&lt;p&gt;提示：&lt;/p&gt;
+
+&lt;p&gt;```
+Fetching: bundler-1.13.5.gem (100%)
+Successfully installed bundler-1.13.5
+Parsing documentation for bundler-1.13.5
+Installing ri documentation for bundler-1.13.5
+Done installing documentation for bundler after 5 seconds
+1 gem installed&lt;/p&gt;
+
+&lt;p&gt;```&lt;/p&gt;
+
+&lt;p&gt;再次执行 $ jekyll server  ，提示&lt;/p&gt;
+
+&lt;p&gt;```&lt;/p&gt;
+
+&lt;p&gt;Could not find proper version of jekyll (3.1.1) in any of the sources
+Run &lt;code class=&quot;highlighter-rouge&quot;&gt;bundle install&lt;/code&gt; to install missing gems.&lt;/p&gt;
+
+&lt;p&gt;```&lt;/p&gt;
+
+&lt;p&gt;跟着提示运行命令&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;
+$ bundle install
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;这个时候你可能会发现 bundle install 运行卡主不动了。&lt;/p&gt;
+
+&lt;p&gt;如果很长时间都没任何提示的话，你可以尝试修改 gem 的 source&lt;/p&gt;
+
+&lt;p&gt;```
+$ gem sources –remove https://rubygems.org/
+$ gem sources -a http://ruby.taobao.org/
+$ gem sources -l
+&lt;em&gt;** CURRENT SOURCES **&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;http://ruby.taobao.org&lt;/p&gt;
+
+&lt;p&gt;```&lt;/p&gt;
+
+&lt;p&gt;再次执行命令 $ bundle install，发现开始有动静了&lt;/p&gt;
+
+&lt;p&gt;```
+Fetching gem metadata from https://rubygems.org/………..
+Fetching version metadata from https://rubygems.org/..
+Fetching dependency metadata from https://rubygems.org/.
+。。。
+Installing jekyll-watch 1.3.1
+Installing jekyll 3.1.1
+Bundle complete! 3 Gemfile dependencies, 17 gems now installed.
+Use &lt;code class=&quot;highlighter-rouge&quot;&gt;bundle show [gemname]&lt;/code&gt; to see where a bundled gem is installed.&lt;/p&gt;
+
+&lt;p&gt;```&lt;/p&gt;
+
+&lt;p&gt;bundler安装完成，后再次启动本地服务&lt;/p&gt;
+
+&lt;p&gt;```
+$ jekyll server&lt;/p&gt;
+
+&lt;p&gt;```&lt;/p&gt;
+
+&lt;p&gt;继续报错&lt;/p&gt;
+
+&lt;p&gt;```
+Configuration file: /Users/tendcloud-Caroline/Desktop/jundali.github.io/_config.yml
+  Dependency Error: Yikes! It looks like you don’t have jekyll-sitemap or one of its dependencies installed. In order to use Jekyll as currently configured, you’ll need to install this gem. The full error message from Ruby is: ‘cannot load such file – jekyll-sitemap’ If you run into trouble, you can find helpful resources at http://jekyllrb.com/help/! 
+jekyll 3.1.1 | Error:  jekyll-sitemap&lt;/p&gt;
+
+&lt;p&gt;```
+表示 当前的 jekyll 版本是 3.1.1 ，无法使用 jekyll-sitemap&lt;/p&gt;
+
+&lt;p&gt;解决方法有两个&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;1、打开当前目录下的 _config.yml 文件，把 gems: [jekyll-paginate,jekyll-sitemap] 换成 gems: [jekyll-paginate] ，也就是去掉jekyll-sitemap。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;2、升级 jekyll 版本，我当前的是 jekyll 3.1.2 。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;修改完成后保存配置，再次执行&lt;/p&gt;
+
+&lt;p&gt;```
+$ jekyll server&lt;/p&gt;
+
+&lt;p&gt;```
+提示&lt;/p&gt;
+
+&lt;p&gt;```
+Configuration file: /Users/baixinpan/Desktop/OpenSource/Mine/Page-Blog/jundali.github.io-github/_config.yml
+            Source: /Users/baixinpan/Desktop/OpenSource/Mine/Page-Blog/jundali.github.io-github
+       Destination: /Users/baixinpan/Desktop/OpenSource/Mine/Page-Blog/jundali.github.io-github/_site
+ Incremental build: disabled. Enable with –incremental
+      Generating… 
+                    done in 0.901 seconds.
+ Auto-regeneration: enabled for ‘/Users/baixinpan/Desktop/OpenSource/Mine/Page-Blog/jundali.github.io-github’
+Configuration file: /Users/baixinpan/Desktop/OpenSource/Mine/Page-Blog/jundali.github.io-github/_config.yml
+    Server address: http://127.0.0.1:4000/
+  Server running… press ctrl-c to stop.&lt;/p&gt;
+
+&lt;p&gt;```&lt;/p&gt;
+
+&lt;p&gt;表示本地服务部署成功。&lt;/p&gt;
+
+&lt;p&gt;在浏览器输入 &lt;a href=&quot;127.0.0.1:4000&quot;&gt;127.0.0.1:4000&lt;/a&gt; ， 就可以看到&lt;a href=&quot;http://baixin.io&quot;&gt;baixin.io&lt;/a&gt;博客效果了。&lt;/p&gt;
+
+&lt;h3 id=&quot;section-5&quot;&gt;修改成你自己的博客&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;ul&gt;
+    &lt;li&gt;如果你想使用我的模板请把 _posts/ 目录下的文章都去掉。&lt;/li&gt;
+    &lt;li&gt;修改 _config.yml 文件里面的内容为你自己的。&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;然后使用 git push 到你自己的仓库里面去，检查你远端仓库，在浏览器输入 username.github.io 就会发现，你有一个漂亮的主题模板了。&lt;/p&gt;
+
+&lt;h4 id=&quot;section-6&quot;&gt;【 如果想修改博客样式却不知道怎么修改，可以直接在评论里给我提问 】&lt;/h4&gt;
+
+&lt;h3 id=&quot;jekyll-1&quot;&gt;为什么要是用 Jekyll&lt;/h3&gt;
+
+&lt;p&gt;使用了 Jekyll 你会发现如果你想使用多台电脑发博客都很方便，只要把远端 github 仓库里的博客 clone 下来，写文章后再提交就可以了，Hexo 由于远端提交的是静态网页，所有无法直接写 Markdown 的文章。如果你想看 Hexo 搭建博客，可以看看我的另一篇&lt;a href=&quot;http://baixin.io/2015/08/HEXO%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/&quot;&gt;HEXO搭建个人博客&lt;/a&gt;的教程。&lt;/p&gt;
+
+&lt;p&gt;如果你在搭建博客遇到问题，可以在&lt;a href=&quot;http://baixin.io/2016/10/jekyll_tutorials1/&quot;&gt;原文博客&lt;/a&gt;的评论里给我提问。&lt;/p&gt;
+
+&lt;p&gt;后面会继续介绍，在我的博客基础上，如何修改成你自己喜欢的 Style，欢迎继续关注我博客的更新。&lt;/p&gt;
+
+&lt;h3 id=&quot;qa&quot;&gt;Q&amp;amp;A&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;问题：最近很多朋友使用我的模板报警告：The CNAME &lt;code class=&quot;highlighter-rouge&quot;&gt;baixin.io&lt;/code&gt; is already taken 
+解决：把CNAME里面的baixin.io修改成你自己的域名，如果你暂时没有域名，CNAME里面就什么都不用谢。（之前没人反馈过这个问题，应该是github page最近才最的限制。）&lt;/p&gt;
+&lt;/blockquote&gt;
+
+</description>
+        <pubDate>Fri, 14 Oct 2016 00:00:00 +0800</pubDate>
+        <link>http://wisnic.com/2016/10/jekyll_tutorials1/</link>
+        <guid isPermaLink="true">http://wisnic.com/2016/10/jekyll_tutorials1/</guid>
+        
+        <category>博客</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Git教程</title>
+        <description>&lt;h3 id=&quot;section&quot;&gt;介绍&lt;/h3&gt;
+
+&lt;p&gt;　　Git是做项目的版本管理，你也可以称它们为版本管理工具。假如现在你有一个文件夹，里面可以是项目，也可以是你的个人笔记(如我这个博客)，或者是你的简历、毕业设计等等，都可以使用git来管理。&lt;/p&gt;
+
+&lt;p&gt;　　目前常用的版本控制器有Git和SVN，即使这两个你没有全用过，至少也会听过，我这里以Git为例，个人比较喜欢Git，你也可以看看这篇文章：&lt;a href=&quot;http://www.worldhello.net/2012/04/12/why-git-is-better-than-svn.html&quot;&gt;为什么Git比SVN好&lt;/a&gt;。我使用的是Mac，Mac上没自带Git环境，但是作为iOS开发者，我安装Xcode的时候，Xcode里是有自带Git的，所以我不需要考虑怎么去安装Git了。&lt;/p&gt;
+
+&lt;h3 id=&quot;git&quot;&gt;安装Git&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;在Mac OS X上安装Git&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;提供两种方法参考：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;1、通过homebrew安装Git，具体方法请参考&lt;a href=&quot;http://brew.sh/&quot;&gt;homebrew的文档&lt;/a&gt;    &lt;br /&gt;
+2、直接从AppStore安装Xcode，Xcode集成了Git，不过默认没有安装，你需要运行Xcode。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;在Windows上安装Git&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;从&lt;a href=&quot;https://git-for-windows.github.io&quot;&gt;https://git-for-windows.github.io&lt;/a&gt; 下载，然后按默认选项安装即可，安装完成后，在开始菜单里找到“Git”-&amp;gt;“Git Bash”，蹦出一个类似命令行窗口的东西，就说明Git安装成功！&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;git-1&quot;&gt;配置Git&lt;/h3&gt;
+
+&lt;p&gt;安装完成后，还需要最后一步设置，在命令行输入：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;ul&gt;
+    &lt;li&gt;$ git config –global user.name “Your Name”&lt;/li&gt;
+    &lt;li&gt;$ git config –global user.email “email@example.com”&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;“Your Name”： 是每次提交时所显示的用户名，因为Git是分布式版本控制系统，当我们push到远端时，就需要区分每个提交记录具体是谁提交的，这个”Your Name”就是最好的区分。&lt;/p&gt;
+
+&lt;p&gt;“email@example.com”： 是你远端仓库的email&lt;/p&gt;
+
+&lt;p&gt;–global：用了这个参数，表示你这台机器上所有的Git仓库都会使用这个配置，当然我们也可以对某个仓库指定不同的用户名和Email地址。&lt;/p&gt;
+
+&lt;h3 id=&quot;section-1&quot;&gt;开始使用-建立仓库：&lt;/h3&gt;
+
+&lt;p&gt;你在目标文件夹下使命令：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;ul&gt;
+    &lt;li&gt;git init  （创建.git文件）&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;就会创建一个 &lt;code class=&quot;highlighter-rouge&quot;&gt;.git&lt;/code&gt; 隐藏文件，相当于已经建立了一个本地仓库。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;添加到暂存区：&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;ul&gt;
+    &lt;li&gt;git add .   （全部添加到暂存区）&lt;/li&gt;
+    &lt;li&gt;git commit -m ‘ first commit’  （提交暂存区的记录到本地仓库）&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;section-2&quot;&gt;其它&lt;/h3&gt;
+
+&lt;p&gt;git branc 查看时如出现&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;ul&gt;
+    &lt;li&gt;(HEAD detached at analytics_v2)&lt;/li&gt;
+    &lt;li&gt;dev&lt;/li&gt;
+    &lt;li&gt;master&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;代表现在已经进入一个临时的HEAD，可以使用 &lt;code class=&quot;highlighter-rouge&quot;&gt;git checkout -b temp&lt;/code&gt; 创建一个 temp branch，这样临时HEAD上修改的东西就不会被丢掉了。
+然后切换到 dev 分支上，在使用 git branch merge temp，就可以把 temp 分支上的代码合并到 dev 上了。&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;转载请注明：&lt;a href=&quot;http://baixin&quot;&gt;潘柏信的博客&lt;/a&gt; » &lt;a href=&quot;http://baixin.io/2016/07/GitTutorial/&quot;&gt;点击阅读原文&lt;/a&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Wed, 13 Jul 2016 00:00:00 +0800</pubDate>
+        <link>http://wisnic.com/2016/07/GitTutorial/</link>
+        <guid isPermaLink="true">http://wisnic.com/2016/07/GitTutorial/</guid>
+        
+        <category>工具</category>
+        
+        
+      </item>
+    
+  </channel>
+</rss>
