@@ -79,3 +79,7 @@ sudo crontab -e
 5. 注意：
 1.涉及到的目录和命令需要更改为当前用户可访问
 2. ssh中的主机ip和目录间要加//
+
+<br>
+
+转载请注明：[李俊达的博客](http://wisnic.com) » [点击阅读原文](http://wisnic.com/2017/07/UnisonConfigExample/)
