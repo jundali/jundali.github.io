@@ -64,7 +64,7 @@ $ sudo easy_install -U bottle
 ```
 
 ## 4.编写网页模板
-模板文件名[index.tpl]（https://github.com/jundali/-RaspberryPi/blob/master/webControl/index.tpl）
+模板文件名[index.tpl](https://github.com/jundali/-RaspberryPi/blob/master/webControl/index.tpl)
 ```
 <!DOCTYPE html>
 <html lang="en">
@@ -145,7 +145,7 @@ $.post("/cmd",this.id,function(data,status){});
 ```
 ## 5. 编写python 网页服务器
 
-以下内容另存为 [webcontrol.py]（https://github.com/jundali/-RaspberryPi/blob/master/webControl/webserver.py）
+以下内容另存为 [webcontrol.py](https://github.com/jundali/-RaspberryPi/blob/master/webControl/webserver.py)
 ```
 #!/usr/bin/env python3
 from bottle import get,post,run,request,template
